@@ -1,0 +1,113 @@
+{{ define "main" }}
+<style>
+  .minimal-homepage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  .minimal-hero {
+    text-align: center;
+    padding: 4rem 0 3rem;
+  }
+  .minimal-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  .minimal-hero p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .minimal-posts {
+    margin-top: 3rem;
+  }
+  .minimal-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .minimal-posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  .minimal-posts li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .minimal-posts li:last-child {
+    border-bottom: none;
+  }
+  .minimal-posts a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s;
+  }
+  .minimal-posts a:hover {
+    transform: translateX(5px);
+  }
+  .minimal-posts h3 {
+    font-size: 1.3rem;
+    color: var(--color-primary-500, #0066cc);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  .minimal-posts time {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  .minimal-posts p {
+    margin-top: 0.5rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  /* Dark mode support */
+  .dark .minimal-hero p,
+  .dark .minimal-posts p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .dark .minimal-posts time {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .dark .minimal-posts li {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+  @media (max-width: 640px) {
+    .minimal-hero h1 {
+      font-size: 2rem;
+    }
+    .minimal-hero {
+      padding: 2rem 0;
+    }
+  }
+</style>
+<div class="minimal-homepage">
+  <section class="minimal-hero">
+    <h1>{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </section>
+  <section class="minimal-posts">
+    <h2>Recent Posts</h2>
+    <ul>
+      {{ range first 5 .Site.RegularPages }}
+      <li>
+        <a href="{{ .Permalink }}">
+          <h3>{{ .Title }}</h3>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ with .Summary }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

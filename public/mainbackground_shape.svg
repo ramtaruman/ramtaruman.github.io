@@ -1,0 +1,94 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="position:fixed;top:0;left:0;width:100%;height:100%;">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+    </defs>
+    <style>
+        .liquid-blob {
+            fill: #1100ff;
+            filter: url(#goo);
+        }
+        .blob1 { animation: blob1 18s ease-in-out infinite; opacity: 0.4; }
+        .blob2 { animation: blob2 22s ease-in-out infinite; opacity: 0.35; }
+        .blob3 { animation: blob3 20s ease-in-out infinite; opacity: 0.45; }
+        .blob4 { animation: blob4 24s ease-in-out infinite; opacity: 0.3; }
+        .blob5 { animation: blob5 19s ease-in-out infinite; opacity: 0.38; }
+        .blob6 { animation: blob6 21s ease-in-out infinite; opacity: 0.42; }
+        @keyframes blob1 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(8px, -5px) scale(1.15); }
+            50% { transform: translate(-6px, 10px) scale(0.92); }
+            75% { transform: translate(5px, 3px) scale(1.08); }
+        }
+        @keyframes blob2 {
+            0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            33% { transform: translate(-10px, 8px) scale(1.12) rotate(15deg); }
+            66% { transform: translate(7px, -6px) scale(0.88) rotate(-10deg); }
+        }
+        @keyframes blob3 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            30% { transform: translate(6px, 9px) scale(0.95); }
+            60% { transform: translate(-8px, -7px) scale(1.18); }
+            80% { transform: translate(4px, 2px) scale(1.05); }
+        }
+        @keyframes blob4 {
+            0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            40% { transform: translate(-5px, -10px) scale(1.1) rotate(-20deg); }
+            70% { transform: translate(9px, 6px) scale(0.9) rotate(15deg); }
+        }
+        @keyframes blob5 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            35% { transform: translate(-7px, 5px) scale(1.2); }
+            65% { transform: translate(8px, -8px) scale(0.85); }
+        }
+        @keyframes blob6 {
+            0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            50% { transform: translate(6px, 7px) scale(1.15) rotate(25deg); }
+        }
+    </style>
+    <path class="liquid-blob blob1" d="M 30 20 C 30 15, 35 10, 40 10 C 45 10, 50 15, 50 20 C 50 25, 48 28, 45 30 C 42 32, 38 32, 35 30 C 32 28, 30 25, 30 20 Z">
+        <animate attributeName="d" dur="18s" repeatCount="indefinite"
+                 values="M 30 20 C 30 15, 35 10, 40 10 C 45 10, 50 15, 50 20 C 50 25, 48 28, 45 30 C 42 32, 38 32, 35 30 C 32 28, 30 25, 30 20 Z;
+                         M 28 20 C 28 14, 34 8, 40 8 C 47 8, 53 14, 53 20 C 53 27, 50 31, 45 33 C 40 35, 35 35, 31 33 C 28 30, 28 26, 28 20 Z;
+                         M 32 20 C 32 16, 36 12, 40 12 C 44 12, 48 16, 48 20 C 48 24, 46 27, 43 29 C 40 31, 37 31, 34 29 C 31 27, 32 24, 32 20 Z;
+                         M 30 20 C 30 15, 35 10, 40 10 C 45 10, 50 15, 50 20 C 50 25, 48 28, 45 30 C 42 32, 38 32, 35 30 C 32 28, 30 25, 30 20 Z"/>
+    </path>
+    <path class="liquid-blob blob2" d="M 65 45 C 65 38, 70 33, 77 33 C 84 33, 89 38, 89 45 C 89 52, 86 57, 80 59 C 74 61, 68 58, 66 52 C 64 48, 65 50, 65 45 Z">
+        <animate attributeName="d" dur="22s" repeatCount="indefinite"
+                 values="M 65 45 C 65 38, 70 33, 77 33 C 84 33, 89 38, 89 45 C 89 52, 86 57, 80 59 C 74 61, 68 58, 66 52 C 64 48, 65 50, 65 45 Z;
+                         M 63 45 C 63 36, 69 30, 77 30 C 86 30, 92 36, 92 45 C 92 54, 88 60, 80 62 C 72 64, 65 60, 63 52 C 61 46, 63 50, 63 45 Z;
+                         M 67 45 C 67 40, 71 35, 77 35 C 83 35, 87 40, 87 45 C 87 50, 85 55, 80 57 C 75 59, 70 57, 68 52 C 66 48, 67 49, 67 45 Z;
+                         M 65 45 C 65 38, 70 33, 77 33 C 84 33, 89 38, 89 45 C 89 52, 86 57, 80 59 C 74 61, 68 58, 66 52 C 64 48, 65 50, 65 45 Z"/>
+    </path>
+    <path class="liquid-blob blob3" d="M 15 60 C 15 53, 20 48, 27 48 C 34 48, 39 53, 39 60 C 39 67, 36 72, 30 74 C 24 76, 18 73, 16 67 C 14 63, 15 65, 15 60 Z">
+        <animate attributeName="d" dur="20s" repeatCount="indefinite"
+                 values="M 15 60 C 15 53, 20 48, 27 48 C 34 48, 39 53, 39 60 C 39 67, 36 72, 30 74 C 24 76, 18 73, 16 67 C 14 63, 15 65, 15 60 Z;
+                         M 13 60 C 13 51, 19 45, 27 45 C 36 45, 42 51, 42 60 C 42 69, 38 75, 30 77 C 22 79, 15 75, 13 67 C 11 61, 13 65, 13 60 Z;
+                         M 17 60 C 17 55, 21 50, 27 50 C 33 50, 37 55, 37 60 C 37 65, 35 70, 30 72 C 25 74, 20 72, 18 67 C 16 63, 17 64, 17 60 Z;
+                         M 15 60 C 15 53, 20 48, 27 48 C 34 48, 39 53, 39 60 C 39 67, 36 72, 30 74 C 24 76, 18 73, 16 67 C 14 63, 15 65, 15 60 Z"/>
+    </path>
+    <path class="liquid-blob blob4" d="M 50 70 C 50 64, 54 59, 60 59 C 66 59, 70 64, 70 70 C 70 76, 68 80, 63 82 C 58 84, 53 82, 51 77 C 49 73, 50 74, 50 70 Z">
+        <animate attributeName="d" dur="24s" repeatCount="indefinite"
+                 values="M 50 70 C 50 64, 54 59, 60 59 C 66 59, 70 64, 70 70 C 70 76, 68 80, 63 82 C 58 84, 53 82, 51 77 C 49 73, 50 74, 50 70 Z;
+                         M 48 70 C 48 62, 53 56, 60 56 C 68 56, 73 62, 73 70 C 73 78, 70 84, 63 86 C 56 88, 50 84, 48 77 C 46 72, 48 75, 48 70 Z;
+                         M 52 70 C 52 66, 55 62, 60 62 C 65 62, 68 66, 68 70 C 68 74, 67 78, 63 80 C 59 82, 55 80, 53 77 C 51 74, 52 73, 52 70 Z;
+                         M 50 70 C 50 64, 54 59, 60 59 C 66 59, 70 64, 70 70 C 70 76, 68 80, 63 82 C 58 84, 53 82, 51 77 C 49 73, 50 74, 50 70 Z"/>
+    </path>
+    <path class="liquid-blob blob5" d="M 25 85 C 25 80, 29 76, 34 76 C 39 76, 43 80, 43 85 C 43 90, 41 93, 37 95 C 33 97, 29 95, 27 91 C 25 88, 25 89, 25 85 Z">
+        <animate attributeName="d" dur="19s" repeatCount="indefinite"
+                 values="M 25 85 C 25 80, 29 76, 34 76 C 39 76, 43 80, 43 85 C 43 90, 41 93, 37 95 C 33 97, 29 95, 27 91 C 25 88, 25 89, 25 85 Z;
+                         M 23 85 C 23 78, 28 73, 34 73 C 41 73, 46 78, 46 85 C 46 92, 43 97, 37 99 C 31 101, 26 97, 23 91 C 21 86, 23 89, 23 85 Z;
+                         M 27 85 C 27 82, 30 79, 34 79 C 38 79, 41 82, 41 85 C 41 88, 40 91, 37 93 C 34 95, 31 93, 29 91 C 27 89, 27 88, 27 85 Z;
+                         M 25 85 C 25 80, 29 76, 34 76 C 39 76, 43 80, 43 85 C 43 90, 41 93, 37 95 C 33 97, 29 95, 27 91 C 25 88, 25 89, 25 85 Z"/>
+    </path>
+    <path class="liquid-blob blob6" d="M 70 80 C 70 75, 74 71, 79 71 C 84 71, 88 75, 88 80 C 88 85, 86 88, 82 90 C 78 92, 74 90, 72 86 C 70 83, 70 84, 70 80 Z">
+        <animate attributeName="d" dur="21s" repeatCount="indefinite"
+                 values="M 70 80 C 70 75, 74 71, 79 71 C 84 71, 88 75, 88 80 C 88 85, 86 88, 82 90 C 78 92, 74 90, 72 86 C 70 83, 70 84, 70 80 Z;
+                         M 68 80 C 68 73, 73 68, 79 68 C 86 68, 91 73, 91 80 C 91 87, 88 92, 82 94 C 76 96, 71 92, 68 86 C 66 82, 68 85, 68 80 Z;
+                         M 72 80 C 72 77, 75 74, 79 74 C 83 74, 86 77, 86 80 C 86 83, 85 86, 82 88 C 79 90, 76 88, 74 86 C 72 84, 72 83, 72 80 Z;
+                         M 70 80 C 70 75, 74 71, 79 71 C 84 71, 88 75, 88 80 C 88 85, 86 88, 82 90 C 78 92, 74 90, 72 86 C 70 83, 70 84, 70 80 Z"/>
+    </path>
+</svg>

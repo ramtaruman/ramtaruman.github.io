@@ -1,0 +1,150 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="position:fixed;top:0;left:0;width:100%;height:100%;">
+    <defs>
+        <linearGradient id="wave-gradient-1" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#1100ff;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#0d00fa;stop-opacity:0.5" />
+        </linearGradient>
+        <linearGradient id="wave-gradient-2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#1500ff;stop-opacity:0.25" />
+            <stop offset="100%" style="stop-color:#1100ff;stop-opacity:0.4" />
+        </linearGradient>
+        <linearGradient id="wave-gradient-3" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#1700ff;stop-opacity:0.2" />
+            <stop offset="100%" style="stop-color:#1300f8;stop-opacity:0.35" />
+        </linearGradient>
+    </defs>
+    <style>
+        .ocean-wave {
+            opacity: 0.6;
+        }
+        .wave1 { animation: wave1 25s ease-in-out infinite; }
+        .wave2 { animation: wave2 20s ease-in-out infinite; }
+        .wave3 { animation: wave3 30s ease-in-out infinite; }
+        .wave4 { animation: wave4 22s ease-in-out infinite; }
+        .wave5 { animation: wave5 28s ease-in-out infinite; }
+        .wave6 { animation: wave6 24s ease-in-out infinite; }
+        @keyframes wave1 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.4;
+            }
+            50% {
+                transform: translateX(-3%) translateY(-1%);
+                opacity: 0.6;
+            }
+        }
+        @keyframes wave2 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.35;
+            }
+            50% {
+                transform: translateX(4%) translateY(1%);
+                opacity: 0.55;
+            }
+        }
+        @keyframes wave3 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.3;
+            }
+            50% {
+                transform: translateX(-2%) translateY(-0.5%);
+                opacity: 0.5;
+            }
+        }
+        @keyframes wave4 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.38;
+            }
+            50% {
+                transform: translateX(3%) translateY(0.8%);
+                opacity: 0.58;
+            }
+        }
+        @keyframes wave5 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.33;
+            }
+            50% {
+                transform: translateX(-4%) translateY(-0.7%);
+                opacity: 0.53;
+            }
+        }
+        @keyframes wave6 {
+            0%, 100% {
+                transform: translateX(0) translateY(0);
+                opacity: 0.36;
+            }
+            50% {
+                transform: translateX(2.5%) translateY(0.6%);
+                opacity: 0.56;
+            }
+        }
+    </style>
+    <!-- Wave Layer 1 (Bottom) -->
+    <path class="ocean-wave wave1" fill="url(#wave-gradient-1)" d="M -10 70 Q 15 65, 30 70 T 70 70 T 110 70 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="25s" repeatCount="indefinite"
+                 values="M -10 70 Q 15 65, 30 70 T 70 70 T 110 70 L 110 110 L -10 110 Z;
+                         M -10 70 Q 15 75, 30 70 T 70 70 T 110 70 L 110 110 L -10 110 Z;
+                         M -10 72 Q 15 68, 30 72 T 70 72 T 110 72 L 110 110 L -10 110 Z;
+                         M -10 70 Q 15 65, 30 70 T 70 70 T 110 70 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Wave Layer 2 -->
+    <path class="ocean-wave wave2" fill="url(#wave-gradient-2)" d="M -10 60 Q 20 55, 40 60 T 80 60 T 110 60 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="20s" repeatCount="indefinite"
+                 values="M -10 60 Q 20 55, 40 60 T 80 60 T 110 60 L 110 110 L -10 110 Z;
+                         M -10 60 Q 20 65, 40 60 T 80 60 T 110 60 L 110 110 L -10 110 Z;
+                         M -10 62 Q 20 58, 40 62 T 80 62 T 110 62 L 110 110 L -10 110 Z;
+                         M -10 60 Q 20 55, 40 60 T 80 60 T 110 60 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Wave Layer 3 -->
+    <path class="ocean-wave wave3" fill="url(#wave-gradient-3)" d="M -10 50 Q 25 45, 50 50 T 90 50 T 110 50 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="30s" repeatCount="indefinite"
+                 values="M -10 50 Q 25 45, 50 50 T 90 50 T 110 50 L 110 110 L -10 110 Z;
+                         M -10 50 Q 25 55, 50 50 T 90 50 T 110 50 L 110 110 L -10 110 Z;
+                         M -10 52 Q 25 48, 50 52 T 90 52 T 110 52 L 110 110 L -10 110 Z;
+                         M -10 50 Q 25 45, 50 50 T 90 50 T 110 50 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Wave Layer 4 (Mid) -->
+    <path class="ocean-wave wave4" fill="#1100ff" opacity="0.25" d="M -10 45 Q 18 42, 36 45 T 72 45 T 110 45 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="22s" repeatCount="indefinite"
+                 values="M -10 45 Q 18 42, 36 45 T 72 45 T 110 45 L 110 110 L -10 110 Z;
+                         M -10 45 Q 18 48, 36 45 T 72 45 T 110 45 L 110 110 L -10 110 Z;
+                         M -10 47 Q 18 44, 36 47 T 72 47 T 110 47 L 110 110 L -10 110 Z;
+                         M -10 45 Q 18 42, 36 45 T 72 45 T 110 45 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Wave Layer 5 -->
+    <path class="ocean-wave wave5" fill="#0f00f5" opacity="0.2" d="M -10 38 Q 22 35, 44 38 T 84 38 T 110 38 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="28s" repeatCount="indefinite"
+                 values="M -10 38 Q 22 35, 44 38 T 84 38 T 110 38 L 110 110 L -10 110 Z;
+                         M -10 38 Q 22 41, 44 38 T 84 38 T 110 38 L 110 110 L -10 110 Z;
+                         M -10 40 Q 22 37, 44 40 T 84 40 T 110 40 L 110 110 L -10 110 Z;
+                         M -10 38 Q 22 35, 44 38 T 84 38 T 110 38 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Wave Layer 6 (Top) -->
+    <path class="ocean-wave wave6" fill="#1500ff" opacity="0.18" d="M -10 32 Q 28 29, 56 32 T 96 32 T 110 32 L 110 110 L -10 110 Z">
+        <animate attributeName="d" dur="24s" repeatCount="indefinite"
+                 values="M -10 32 Q 28 29, 56 32 T 96 32 T 110 32 L 110 110 L -10 110 Z;
+                         M -10 32 Q 28 35, 56 32 T 96 32 T 110 32 L 110 110 L -10 110 Z;
+                         M -10 34 Q 28 31, 56 34 T 96 34 T 110 34 L 110 110 L -10 110 Z;
+                         M -10 32 Q 28 29, 56 32 T 96 32 T 110 32 L 110 110 L -10 110 Z"/>
+    </path>
+    <!-- Surface shimmer lines -->
+    <path class="ocean-wave wave1" fill="none" stroke="#1700ff" stroke-width="0.3" opacity="0.3" d="M -10 30 Q 30 28, 60 30 T 110 30">
+        <animate attributeName="d" dur="25s" repeatCount="indefinite"
+                 values="M -10 30 Q 30 28, 60 30 T 110 30;
+                         M -10 30 Q 30 32, 60 30 T 110 30;
+                         M -10 31 Q 30 29, 60 31 T 110 31;
+                         M -10 30 Q 30 28, 60 30 T 110 30"/>
+    </path>
+    <path class="ocean-wave wave3" fill="none" stroke="#1300f8" stroke-width="0.2" opacity="0.25" d="M -10 35 Q 35 33, 65 35 T 110 35">
+        <animate attributeName="d" dur="30s" repeatCount="indefinite"
+                 values="M -10 35 Q 35 33, 65 35 T 110 35;
+                         M -10 35 Q 35 37, 65 35 T 110 35;
+                         M -10 36 Q 35 34, 65 36 T 110 36;
+                         M -10 35 Q 35 33, 65 35 T 110 35"/>
+    </path>
+</svg>
