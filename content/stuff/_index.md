@@ -1,6 +1,5 @@
-this place seems a tad bit empty ... ?
+### General Stuff
+---
+[Things about Terry Davis](https://dangerousminds.net/weird-news/the-schizophrenic-engineer-who-changed-the-game/)
 
-
-#### TODO
-
-- Remove shadows and rounded edges from homepage card
+[Getting Started with Linux](https://training.linuxfoundation.org/training/introduction-to-linux/)
