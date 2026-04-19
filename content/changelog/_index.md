@@ -6,13 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 For quick look at current version info, head to [Version](/version).
 
-## [0.1.3]  - 2026-04-15
-### General
-
-- Added new favicon
-- Fixed homepage card shadow and unrounded the ages
-- Added background animation to other pages
-
 ## [0.1.2]  - 2026-04-14
 ### General
 - Several changes across the board, namely addition of all the pages, rework of the homepage, animation refining.

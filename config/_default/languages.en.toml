@@ -9,9 +9,9 @@ title = "febtwonine"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "https://img.icons8.com/nolan/96/kuromi.png"
-  secondaryLogo = "https://img.icons8.com/nolan/64/kuromi.png"
-  description = "Prakhar's Website"
+   logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+   description = "Prakhar's Website"
   copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
