@@ -68,6 +68,6 @@ enableEmoji = true
       type = 'fragments'
       weight = 10
 
-  [caches]
-    [caches.images]
-      dir = ':cacheDir/images'
+  #[caches]
+   # [caches.images]
+    #  dir = ':cacheDir/images' # Commented to test out default caching

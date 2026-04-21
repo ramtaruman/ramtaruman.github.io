@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 For quick look at current version info, head to [Version](/version).
 
 ## [0.1.3] - 2026-04-19
+
+### General 
+- Added gear section to stuff page
+- Change background animation, removed background from pages
+
+## [0.1.3] - 2026-04-19
 ### Git
 - Cleaned up git specific submodule tracking.
 

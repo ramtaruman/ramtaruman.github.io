@@ -1,5 +1,6 @@
 ### General Stuff
----
-[Things about Terry Davis](https://dangerousminds.net/weird-news/the-schizophrenic-engineer-who-changed-the-game/)
 
-[Getting Started with Linux](https://training.linuxfoundation.org/training/introduction-to-linux/)
+##### Random stuff, mostly tech related. I am not quite sure what I even wanna use this page for, but putting it out there just for now.
+---
+
+[My Gear](/gear) - Things that I use daily, hardwares, softwares and other thingies.
