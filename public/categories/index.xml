@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>Notes</title>
-      <link>http://localhost:1313/categories/notes/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <author>prakhar.dev.io@gmail.com ( )</author>
-      <guid>http://localhost:1313/categories/notes/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Plan</title>
       <link>http://localhost:1313/categories/plan/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>

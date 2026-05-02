@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 For quick look at current version info, head to [Version](/version).
 
+## [0.1.5] - 2026-05-03 
+
+### General 
+- Removed footer for article sectioning
+- Refactored how posts are pulled. Instead of content specific foldering, posts are hub for all end lists.
+- Removed hero section for list types. 
+
 ## [0.1.4] - 2026-05-02 Labor Day Changes!
 
 ### General 

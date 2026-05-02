@@ -9,12 +9,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/stuff/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/gear/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -27,19 +21,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/stuff/my_gear/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/stuff/gitlab_migration/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
+    <loc>http://localhost:1313/posts/gitlab_migration/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -61,12 +43,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/stuff/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/version/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/work/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/my_gear/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

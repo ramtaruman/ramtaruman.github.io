@@ -1,6 +1,5 @@
 ---
 title: "Gear"
-date: 2026-05-02
 draft: false
 tags: ["info"]
 categories: ["about"]

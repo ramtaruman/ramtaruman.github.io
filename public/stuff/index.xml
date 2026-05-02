@@ -9,27 +9,7 @@
     <managingEditor>prakhar.dev.io@gmail.com ( )</managingEditor>
     <webMaster>prakhar.dev.io@gmail.com ( )</webMaster>
     
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/stuff/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Gear</title>
-      <link>http://localhost:1313/stuff/my_gear/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <author>prakhar.dev.io@gmail.com ( )</author>
-      <guid>http://localhost:1313/stuff/my_gear/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>GitLab Migration</title>
-      <link>http://localhost:1313/stuff/gitlab_migration/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <author>prakhar.dev.io@gmail.com ( )</author>
-      <guid>http://localhost:1313/stuff/gitlab_migration/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="http://localhost:1313/stuff/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
