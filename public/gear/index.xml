@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>febtwonine</title>
+    <title>Gear on febtwonine</title>
     <link>http://localhost:1313/gear/</link>
-    <description>Recent content on febtwonine</description>
+    <description>Recent content in Gear on febtwonine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>prakhar.dev.io@gmail.com ( )</managingEditor>
     <webMaster>prakhar.dev.io@gmail.com ( )</webMaster>
     
-    <atom:link href="http://localhost:1313/gear/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/gear/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gear</title>
+      <link>http://localhost:1313/gear/my_gear/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <author>prakhar.dev.io@gmail.com ( )</author>
+      <guid>http://localhost:1313/gear/my_gear/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

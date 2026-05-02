@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 For quick look at current version info, head to [Version](/version).
 
+## [0.1.4] - 2026-05-02 Labor Day Changes!
+
+### General 
+- Lots of internal changes to adhere to Hugo best practices.
+- Posts for sections will now appear as lists under the tab, making editing much more granular. This will be rolled out gradually across all tabs.
+- General tiny improvements.
+
 ## [0.1.3] - 2026-04-19
 
 ### General 
