@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 For quick look at current version info, head to [Version](/version).
 
+### [0.1.7] - 2026-05-11 Mother's Day changes 
+
+#### General 
+- Updated footer to remove version info (visible from changelog) and added uptime link
+- Minor bugfix
+
+#### Cloudflare
+- This website is now built and deployed via Cloudflare-pages with the domain being served with Cloudflare DNS
+
+#### Uptime ROBOT
+- This website status is now tracked by uptimerobot.com
+
 ### [0.1.6] - 2026-05-04 
 
 #### General 

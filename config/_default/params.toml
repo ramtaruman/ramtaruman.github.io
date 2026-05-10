@@ -97,7 +97,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [list]
   showHero = false
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = false # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false

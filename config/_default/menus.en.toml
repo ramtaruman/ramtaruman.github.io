@@ -90,8 +90,8 @@
 
 
 [[footer]]
-  name = "Version Info"
-  pageRef = "version"
+  name = "Uptime"
+  url='https://stats.uptimerobot.com/6cdNlMnxyI'
   weight = 100
 
 # [[footer]]
